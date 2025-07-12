@@ -21,7 +21,28 @@ This project was developed as a collaborative effort with the **Nest Academy** t
 ## 🏗️ Project Structure
 
 ```
-<code_block_to_apply_changes_from>
+Nest2project-simplebook/
+├── tests/
+│ ├── data/ # Test data files
+│ │ └── user.data.js
+│ ├── helper/ # Helper functions
+│ │ └── lib-api.js
+│ ├── pages/ # API endpoint definitions
+│ │ ├── base.api.js # Base API configuration
+│ │ └── simplebook.api.js # Simple Book API methods
+│ ├── scenarios/ # Test scenarios
+│ │ ├── getAllOrder.test.js
+│ │ ├── getBookbyLimit.test.js
+│ │ ├── getBookbyType.test.js
+│ │ ├── getListofBooks.test.js
+│ │ ├── getSingleBook.test.js
+│ │ ├── getStatus.test.js
+│ │ └── orderBook.test.js
+│ └── schema/ # JSON Schema validation
+│ ├── getAllOrder.schema.js
+│ └── getListofBooks.schema.js
+├── reports/ # Test reports (auto-generated)
+└── readme.md
 ```
 
 ## 🛠️ Tech Stack
